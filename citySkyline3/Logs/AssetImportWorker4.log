@@ -232,3 +232,1168 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8763.239346 seconds.
+  path: Assets/Cube Environment/Prefab/Road1.prefab
+  artifactKey: Guid(f5567cfc598b9a943a3afb75b39fe608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Prefab/Road1.prefab using Guid(f5567cfc598b9a943a3afb75b39fe608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3ac4508b776ae16b0265be149cf09b') in 0.125592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 185.058058 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Bench.mat
+  artifactKey: Guid(3d45f2f28b79e524686916950086d066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/Bench.mat using Guid(3d45f2f28b79e524686916950086d066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3f4c05b3c6802fce9ce183fed4018a') in 0.084585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cube Environment/Models/RecyclingBinGreen.obj
+  artifactKey: Guid(725bbee166308d7449dfcf1b8cf9e80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/RecyclingBinGreen.obj using Guid(725bbee166308d7449dfcf1b8cf9e80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c16088e8cd1e656f72704c9b1c81de0') in 0.066842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cube Environment/Models/TrashCan.obj
+  artifactKey: Guid(586609a9aa96f014b8cf7a07aeac1d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/TrashCan.obj using Guid(586609a9aa96f014b8cf7a07aeac1d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284053b6d7e6bd8d1ccad07fb6b33fab') in 0.036423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Models/Log.obj
+  artifactKey: Guid(13e4b3060f6c2b54180f6b516f69905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/Log.obj using Guid(13e4b3060f6c2b54180f6b516f69905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4da40e9c4f50ed9606f62b404b884cc') in 0.038587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Models/StreetLight.obj
+  artifactKey: Guid(0ec54257acab1544b888d10624ba5c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/StreetLight.obj using Guid(0ec54257acab1544b888d10624ba5c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293990c43c3d60cf8634a7aa2b271bb9') in 0.034580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Texture/Materials/RoadBlock.mat
+  artifactKey: Guid(179288914de2db441ae7547d170ccd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/RoadBlock.mat using Guid(179288914de2db441ae7547d170ccd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80db076ee7a912dfbc1a17dde0919033') in 0.023101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Models/StopSing.obj
+  artifactKey: Guid(5d6d94a4901526142a8ac18939f54e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/StopSing.obj using Guid(5d6d94a4901526142a8ac18939f54e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9acc0f59c517404b40d60ec93f3d9c6') in 0.037125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube Environment/Texture/Materials/RecyclingBinBlue.mat
+  artifactKey: Guid(e84c3967ff582eb4eb2ea3e868ebfb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/RecyclingBinBlue.mat using Guid(e84c3967ff582eb4eb2ea3e868ebfb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b57fb64e728bda66665fa32cc9dd5b') in 0.023793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Models/Grass.obj
+  artifactKey: Guid(e2535121279253c47a2a85cfa841ba55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/Grass.obj using Guid(e2535121279253c47a2a85cfa841ba55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a8d9462467fc4f4b9b1b811c429873') in 0.031232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Models/TreeAutumn.obj
+  artifactKey: Guid(a1ca300255e7d8e49bc3f62daf22702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/TreeAutumn.obj using Guid(a1ca300255e7d8e49bc3f62daf22702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7b098bcb0c7ee9dd60fc841b32f21f') in 0.048051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cube Environment/Models/RoadBlock.obj
+  artifactKey: Guid(6a09721341fbece498ca60087c5988fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/RoadBlock.obj using Guid(6a09721341fbece498ca60087c5988fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1584fd82b6e09be9bb01e489c10db10c') in 0.035833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube Environment/Texture/Materials/LightPost3.mat
+  artifactKey: Guid(8a85ea73a545b104f8cb3cd030999477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/LightPost3.mat using Guid(8a85ea73a545b104f8cb3cd030999477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886ba8744b85353a28d7170b5bb41038') in 0.013653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cube Environment/Texture/Materials/FireHydrant.mat
+  artifactKey: Guid(ac2e6b9173e5bd24a822be075e6f8656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/FireHydrant.mat using Guid(ac2e6b9173e5bd24a822be075e6f8656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137eecb1609f543aca0b340183221ec1') in 0.013014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Models/Road1.obj
+  artifactKey: Guid(50f256e486287b54ab6c284cab390033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/Road1.obj using Guid(50f256e486287b54ab6c284cab390033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6a3d6128efbe26ac059e3dbc98e084') in 0.030495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cube Environment/Texture/Materials/TelephonePole.mat
+  artifactKey: Guid(a935600d588f4644291c2eebed292f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/TelephonePole.mat using Guid(a935600d588f4644291c2eebed292f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec29f5fefbb62e6c7c4bdc0239cc748') in 0.015574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Models/Light Post1.obj
+  artifactKey: Guid(a2471619764c3b349976d86161abf178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/Light Post1.obj using Guid(a2471619764c3b349976d86161abf178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adb07786a3b9198355f956fb6a57692') in 0.030015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Trash Can.mat
+  artifactKey: Guid(b09d750e6ceae5b4f81b026d3c50775b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/Trash Can.mat using Guid(b09d750e6ceae5b4f81b026d3c50775b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92291a89a8e0b0e12918fffe21ede39e') in 0.015452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cube Environment/Texture/Materials/WaterBaril.mat
+  artifactKey: Guid(a9d5d5672a78dc04287ed6fde0dba5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/WaterBaril.mat using Guid(a9d5d5672a78dc04287ed6fde0dba5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfacb780fafc504bf38365c85a343d47') in 0.016742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Log.mat
+  artifactKey: Guid(592a4bdea3ab4954391bb812289a5749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/Log.mat using Guid(592a4bdea3ab4954391bb812289a5749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67fdbbbd0dadd56344595308c9f1da5') in 0.017379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Light Post1.mat
+  artifactKey: Guid(8fd1b213d45b5434796017ef86d9ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/Light Post1.mat using Guid(8fd1b213d45b5434796017ef86d9ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c9af5a7e6b6828e530f9d4c0a737c5') in 0.018388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Models/TreeSummer.obj
+  artifactKey: Guid(ce6deaa3d11f66a46835a04b1017b353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/TreeSummer.obj using Guid(ce6deaa3d11f66a46835a04b1017b353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d482f644617cad6bc9b571bcb5e7d7') in 0.032536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cube Environment/Models/Rock.obj
+  artifactKey: Guid(be14c25b37b7ef245a315a57a3691957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/Rock.obj using Guid(be14c25b37b7ef245a315a57a3691957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dacfd4eab2eab3c5673dd6af1a4c92c') in 0.031932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 40.728110 seconds.
+  path: Assets/Cube Environment
+  artifactKey: Guid(d24f9151fdb674240b6ec326a52c2bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment using Guid(d24f9151fdb674240b6ec326a52c2bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8006657c1b7143e9e1363382ce655af') in 0.000618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.654421 seconds.
+  path: Assets/blocPrefab
+  artifactKey: Guid(8eaf693d0e5718243bfab0f733285c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blocPrefab using Guid(8eaf693d0e5718243bfab0f733285c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fc86b0cfb08672722fe71d355a082b') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.427060 seconds.
+  path: Assets/blocPrefab/Bloc_simple.prefab
+  artifactKey: Guid(87ba57a12b2d0e543b36d4cbc2ea73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blocPrefab/Bloc_simple.prefab using Guid(87ba57a12b2d0e543b36d4cbc2ea73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bd1530c40d8fd664031f0bb41a4726') in 0.101714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 147.960542 seconds.
+  path: Assets/blocPrefab/Bloc_simple.prefab
+  artifactKey: Guid(87ba57a12b2d0e543b36d4cbc2ea73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blocPrefab/Bloc_simple.prefab using Guid(87ba57a12b2d0e543b36d4cbc2ea73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f034f5296cda36bb29b9a983d5bd81') in 0.016703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+IOException: Sharing violation on path C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <b89873cb176e44a995a4781c7487d410>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e8] in <963eb76ec26c49c69dd07575d6e8a607>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <35c0e5f206594d2fa707969117964d70>:0 
+
+Symbol file data-0000020A546A9490 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A77412030 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54040080 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A77412030 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A77DBEE50 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020880848010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54580010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A7686E510 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A7855F050 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A5482BC50 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54580010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54F1C010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54FF7F30 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A5458A420 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A5458A420 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881944AA0 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A7816B040 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A7816B040 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A7800D020 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881944AA0 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A316FF070 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881944AA0 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A781A3A50 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A781A3A50 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A76E8E730 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020880B1E030 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A76FE2010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.968 seconds
+Domain Reload Profiling: 1419ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (968ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3580.
+Memory consumption went from 118.8 MB to 118.8 MB.
+Total: 3.035300 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.469200 ms  DeleteObjects: 0.041600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.624808 seconds.
+  path: Assets/blocPrefab/Bloc_simple.prefab
+  artifactKey: Guid(87ba57a12b2d0e543b36d4cbc2ea73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blocPrefab/Bloc_simple.prefab using Guid(87ba57a12b2d0e543b36d4cbc2ea73ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0beffd817a5f2788110f50b0202d93') in 0.119532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020A5487B4D0 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000208815480C0 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020880084020 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A310CF380 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54539030 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881012010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002088057C030 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A773B5E20 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881CDF130 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54B80040 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002088023E010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881EE9010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020880860030 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000208815480C0 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000208815480C0 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881D73020 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A76D7F040 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54040080 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A5487B4D0 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881D73020 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A316FF070 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020881D73020 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020880860030 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020880860030 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54F4E010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A76D7F040 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020A54F4E010 doesn't match image C:\Users\samfr\Documents\Atelier\CitySkyline3\citySkyline3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.489 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling: 1509ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1023ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3583.
+Memory consumption went from 118.8 MB to 118.8 MB.
+Total: 3.526100 ms (FindLiveObjects: 0.483400 ms CreateObjectMapping: 0.115600 ms MarkObjects: 2.879100 ms  DeleteObjects: 0.046800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.902608 seconds.
+  path: Assets/Script/GameManager.cs
+  artifactKey: Guid(dac4628b32dd9af43acd8e324a5b5fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/GameManager.cs using Guid(dac4628b32dd9af43acd8e324a5b5fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97428e2d6245af152633a567c10b06d') in 0.002278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.539 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1409ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (74ms)
+				TypeCache.ScanAssembly (63ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3587.
+Memory consumption went from 118.8 MB to 118.8 MB.
+Total: 3.203400 ms (FindLiveObjects: 0.472100 ms CreateObjectMapping: 0.122000 ms MarkObjects: 2.564100 ms  DeleteObjects: 0.043500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.455 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.940 seconds
+Domain Reload Profiling: 1392ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (941ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.8 KB). Loaded Objects now: 3590.
+Memory consumption went from 118.8 MB to 118.8 MB.
+Total: 3.112700 ms (FindLiveObjects: 0.422900 ms CreateObjectMapping: 0.098800 ms MarkObjects: 2.547100 ms  DeleteObjects: 0.042800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.058707 seconds.
+  path: Assets/Script/GameManager.cs
+  artifactKey: Guid(dac4628b32dd9af43acd8e324a5b5fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/GameManager.cs using Guid(dac4628b32dd9af43acd8e324a5b5fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f871c388c18eacc5c96d5f958b513a4f') in 0.002510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.513209 seconds.
+  path: Assets/blocPrefab/Bloc_simple.prefab
+  artifactKey: Guid(87ba57a12b2d0e543b36d4cbc2ea73ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/blocPrefab/Bloc_simple.prefab using Guid(87ba57a12b2d0e543b36d4cbc2ea73ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd25016847ecc5ad95aabf721d80918b') in 0.183290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Materials/TelephonePole.mtl
+  artifactKey: Guid(80c8b571707a5ec4e82c52291e1b8a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/TelephonePole.mtl using Guid(80c8b571707a5ec4e82c52291e1b8a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a26f71e0b8a2f3b271cd89fa366dbdc5') in 0.013279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cube Environment/Texture/Color/RoadBlock.png
+  artifactKey: Guid(8017fd37ab2cf334e962f44678305359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/RoadBlock.png using Guid(8017fd37ab2cf334e962f44678305359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bce22b987bd7b3001ddd0befd149705') in 0.079537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Texture/Color/TreeWinter.png
+  artifactKey: Guid(ae5bff2fb32dcaf45b2fea357b2a1c41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/TreeWinter.png using Guid(ae5bff2fb32dcaf45b2fea357b2a1c41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01152edc383b9eba6d8015d62852a95d') in 0.031994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cube Environment/Materials/Bench.mtl
+  artifactKey: Guid(5f2ab7e5502d7e14f9e7783b8a9ef310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/Bench.mtl using Guid(5f2ab7e5502d7e14f9e7783b8a9ef310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3603f9fd2ddc2f6dab3578b9f69cba9a') in 0.017902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cube Environment/Prefab/TrafficCone.prefab
+  artifactKey: Guid(bb9b39e0aeb3bf3459f10750e422eb5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/TrafficCone.prefab using Guid(bb9b39e0aeb3bf3459f10750e422eb5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63c6810bdb06051710c256c8f068b04f') in 0.018468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Materials/Log.mtl
+  artifactKey: Guid(9a8c9b9bec89fc844a7ab5b2f20c6f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/Log.mtl using Guid(9a8c9b9bec89fc844a7ab5b2f20c6f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fafb3965aa339cf2e8eb240a7323b5d') in 0.013211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Materials/TreeWinter.mtl
+  artifactKey: Guid(fe8d861a6fbd55644b8381d19aa06e6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/TreeWinter.mtl using Guid(fe8d861a6fbd55644b8381d19aa06e6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea6198a63ba64a097a19d3226968b375') in 0.012355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Models/LightPost2.obj
+  artifactKey: Guid(464c06eadec08b346a627cc84b1ef4d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/LightPost2.obj using Guid(464c06eadec08b346a627cc84b1ef4d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e4e61932c361ef3c70507035e0c77c3') in 0.069310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Prefab/RecyclingBinBlue.prefab
+  artifactKey: Guid(c210e508b45a6fe4eb3c5ba0a8c5bd87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/RecyclingBinBlue.prefab using Guid(c210e508b45a6fe4eb3c5ba0a8c5bd87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '024db01e02260f3b5f7ff17f7ade093b') in 0.015042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cube Environment/Texture/Materials/LightPost3.mat
+  artifactKey: Guid(8a85ea73a545b104f8cb3cd030999477) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/LightPost3.mat using Guid(8a85ea73a545b104f8cb3cd030999477) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ddd6cd8ae5b2cc4e9bcd1844750f9bb') in 0.015704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Texture/Color/Light Post1.png
+  artifactKey: Guid(195179e0e28732649a95ad9195733db7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/Light Post1.png using Guid(195179e0e28732649a95ad9195733db7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75a1314bd4d92b3ea45bd7744676f4c9') in 0.032248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cube Environment/Texture/Color/Log.png
+  artifactKey: Guid(4b195f266e4e14b49a66e48d765db9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/Log.png using Guid(4b195f266e4e14b49a66e48d765db9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be0175aa52c1df11f5640ff5373f1110') in 0.032767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Road1.mat
+  artifactKey: Guid(27249fb4b21148b4aaaf8a85aa009e21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/Road1.mat using Guid(27249fb4b21148b4aaaf8a85aa009e21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1b1da84622a2606519fc80e39ad2c7c') in 0.016026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Log.mat
+  artifactKey: Guid(592a4bdea3ab4954391bb812289a5749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/Log.mat using Guid(592a4bdea3ab4954391bb812289a5749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a065f5aeaf35878ab0a46875468e158') in 0.014547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cube Environment/Prefab/LightPost3.prefab
+  artifactKey: Guid(4b4a08bc81ee523408405b8b587b7a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/LightPost3.prefab using Guid(4b4a08bc81ee523408405b8b587b7a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8df4a57b06803e183fdbdac87cdebe5') in 0.014334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Prefab/Road1.prefab
+  artifactKey: Guid(f5567cfc598b9a943a3afb75b39fe608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/Road1.prefab using Guid(f5567cfc598b9a943a3afb75b39fe608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd923510df5d73d7b1c86501e45af6f90') in 0.016978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cube Environment/Prefab/TelephonePole.prefab
+  artifactKey: Guid(f0f9f2a95adec6a43b19b846df08d93c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/TelephonePole.prefab using Guid(f0f9f2a95adec6a43b19b846df08d93c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecb6e06b9887b32cf3d7cad63aec526e') in 0.016696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Models/StreetLight.obj
+  artifactKey: Guid(0ec54257acab1544b888d10624ba5c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/StreetLight.obj using Guid(0ec54257acab1544b888d10624ba5c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '916384c525113f174050aa978647ef9b') in 0.046108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Materials/RecyclingBinBlue.mtl
+  artifactKey: Guid(0d2a43864b7c2e64d9d042938da46659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/RecyclingBinBlue.mtl using Guid(0d2a43864b7c2e64d9d042938da46659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76bb16cae866f886c273a7e6dc48a486') in 0.010174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cube Environment/Prefab/FireHydrant.prefab
+  artifactKey: Guid(de0a6145e27dbfb4cad6c5b1363c0bdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/FireHydrant.prefab using Guid(de0a6145e27dbfb4cad6c5b1363c0bdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0fed032f6741e77ddaba1022a7d1a1c') in 0.014379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Light Post1.mat
+  artifactKey: Guid(8fd1b213d45b5434796017ef86d9ae11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/Light Post1.mat using Guid(8fd1b213d45b5434796017ef86d9ae11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ba110f0d4290ec73a773fad8327d203') in 0.017043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Models/RecyclingBinGreen.obj
+  artifactKey: Guid(725bbee166308d7449dfcf1b8cf9e80b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/RecyclingBinGreen.obj using Guid(725bbee166308d7449dfcf1b8cf9e80b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a790bf220c4a2e0f226e7f030757e0c') in 0.032286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cube Environment/Texture/Materials/StreetLight.mat
+  artifactKey: Guid(26a359006b59eb347be1f6cd5d6ff338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/StreetLight.mat using Guid(26a359006b59eb347be1f6cd5d6ff338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a02ee4ad7c12579329cdb42ba74c822') in 0.015705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Materials/RoadBlock.mtl
+  artifactKey: Guid(ce9c3d4edc7b26a43802083ecc3ab067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/RoadBlock.mtl using Guid(ce9c3d4edc7b26a43802083ecc3ab067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80071051eeb68f237637b0486bc28ec7') in 0.018828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cube Environment/Models/Light Post1.obj
+  artifactKey: Guid(a2471619764c3b349976d86161abf178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/Light Post1.obj using Guid(a2471619764c3b349976d86161abf178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c28d92285c416d0cc7332ff80354cf1') in 0.029108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Prefab/StopSing.prefab
+  artifactKey: Guid(755d43a58e3b32344b1c33bed52ea2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/StopSing.prefab using Guid(755d43a58e3b32344b1c33bed52ea2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b60dd8d93bb991186ceffcef754017b') in 0.016660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Materials/LightPost3.mtl
+  artifactKey: Guid(ea5db774874ad9a489c6b61280d85aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/LightPost3.mtl using Guid(ea5db774874ad9a489c6b61280d85aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cf8bccae01cccc123ddafad0bc68ce1') in 0.011914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Texture/Materials/RecyclingBinBlue.mat
+  artifactKey: Guid(e84c3967ff582eb4eb2ea3e868ebfb99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/RecyclingBinBlue.mat using Guid(e84c3967ff582eb4eb2ea3e868ebfb99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b47586bfb11ca75965033b14ee3bf0d5') in 0.016426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Bench.mat
+  artifactKey: Guid(3d45f2f28b79e524686916950086d066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/Bench.mat using Guid(3d45f2f28b79e524686916950086d066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16da6ce36e5e6d98424c1f1dce68df24') in 0.015178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Materials/LightPost2.mtl
+  artifactKey: Guid(0695776d9dfe8844aa1cfde2b1aaed72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/LightPost2.mtl using Guid(0695776d9dfe8844aa1cfde2b1aaed72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd90aa4defcf280a8da8c72fe7cc8086a') in 0.011718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Cube Environment/Models/StopSing.obj
+  artifactKey: Guid(5d6d94a4901526142a8ac18939f54e04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/StopSing.obj using Guid(5d6d94a4901526142a8ac18939f54e04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ea00c21d15e2bd22b0d8a1df4bec568') in 0.030683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Materials/RecyclingBinGreen.mtl
+  artifactKey: Guid(4bf3272aba40f90409f45cafa38765f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/RecyclingBinGreen.mtl using Guid(4bf3272aba40f90409f45cafa38765f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3d57a69b96314d1fdfee7402257c4bb') in 0.011916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cube Environment/Texture/Color/Trash Can.png
+  artifactKey: Guid(aa4705aba385463499a42d364dea320a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/Trash Can.png using Guid(aa4705aba385463499a42d364dea320a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '020c5d33dc26179ccde15d4c7c78c2ae') in 0.032396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Prefab/Log.prefab
+  artifactKey: Guid(05c5700c028d48d458c7c9ee51b02392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/Log.prefab using Guid(05c5700c028d48d458c7c9ee51b02392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e49bc7b3ef1d1d1b186b96cfecc868b1') in 0.015832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Texture/Materials/TreeWinter.mat
+  artifactKey: Guid(7afa5069fa7849d44bb935dce9b6d9c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/TreeWinter.mat using Guid(7afa5069fa7849d44bb935dce9b6d9c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c847acbedc47fd787a0bf5d65d59a20') in 0.015594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Texture/Materials/FireHydrant.mat
+  artifactKey: Guid(ac2e6b9173e5bd24a822be075e6f8656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/FireHydrant.mat using Guid(ac2e6b9173e5bd24a822be075e6f8656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b55edeb3d5ee4d8be7b25df0b3d20aa') in 0.015574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Materials/Light Post1.mtl
+  artifactKey: Guid(90ebdc5c659dcc84984c572a789a9a9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Materials/Light Post1.mtl using Guid(90ebdc5c659dcc84984c572a789a9a9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59195f9fd826dee96f89fc0676fd999a') in 0.012071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cube Environment/Prefab/StreetLight.prefab
+  artifactKey: Guid(ab6d594de2565f94c8d7797d3f16b329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/StreetLight.prefab using Guid(ab6d594de2565f94c8d7797d3f16b329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c4833e941c959583a025e5af63aaa7d') in 0.013281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Texture/Color/FireHydrant.png
+  artifactKey: Guid(aed3448ba1b6ac646b728434440266da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/FireHydrant.png using Guid(aed3448ba1b6ac646b728434440266da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '394693ad80e27a698ee33338cbfb8719') in 0.034023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Cube Environment/Models/TreeSummer.obj
+  artifactKey: Guid(ce6deaa3d11f66a46835a04b1017b353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/TreeSummer.obj using Guid(ce6deaa3d11f66a46835a04b1017b353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d491a1537f54ee822156f9707fccb4e') in 0.028122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Test1.unity
+  artifactKey: Guid(e8113ac1d409c9343bc995fa1576274c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Test1.unity using Guid(e8113ac1d409c9343bc995fa1576274c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba6f4cd84b7d5848e02eafe9dcb56f11') in 0.012965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cube Environment/Models/TrafficCone.obj
+  artifactKey: Guid(abef2a761feba3f40850f1dbee18ef5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/TrafficCone.obj using Guid(abef2a761feba3f40850f1dbee18ef5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18dbda6f371b0358e2e7308f681da096') in 0.035093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Texture/Color/TreeSummer.png
+  artifactKey: Guid(7346c23ea333cfa4f9419bdb274e9a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/TreeSummer.png using Guid(7346c23ea333cfa4f9419bdb274e9a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34f234109d84ae988147ea9a1bfd02a2') in 0.042278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Cube Environment/Prefab/Bench.prefab
+  artifactKey: Guid(8496232e3e94fde44a599182bbc475ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/Bench.prefab using Guid(8496232e3e94fde44a599182bbc475ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eddfe324da7f6bcf2bf4dbce8eaa3c72') in 0.013511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube Environment/Texture/Color/Grass.png
+  artifactKey: Guid(70ee9e63f7ca2b4438566600d8c8f278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/Grass.png using Guid(70ee9e63f7ca2b4438566600d8c8f278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf859b06346b3d79c306b85bf651a455') in 0.046478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Models/FireHydrant.obj
+  artifactKey: Guid(356c18216aff0604eb8d95d3b1f89c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/FireHydrant.obj using Guid(356c18216aff0604eb8d95d3b1f89c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c2b30cb073627c5771c2dbf1173aecc') in 0.031382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Prefab/Grass.prefab
+  artifactKey: Guid(ddb4211e3c5d69e4abf1246e0c5eb56a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Prefab/Grass.prefab using Guid(ddb4211e3c5d69e4abf1246e0c5eb56a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb3075d243b0b70795c8de7187ee4ffc') in 0.013525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Texture/Color/Bench.png
+  artifactKey: Guid(fe00427602e0c1246ae38bd84642b070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/Bench.png using Guid(fe00427602e0c1246ae38bd84642b070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '012077875ad097bf99dd435f9c06c73f') in 0.032990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Cube Environment/Texture/Materials/StopSing.mat
+  artifactKey: Guid(a066e1fe6bdff704baf9670ee26ac246) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/StopSing.mat using Guid(a066e1fe6bdff704baf9670ee26ac246) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea74abff41c046d2d5230366cc43917c') in 0.017046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Models/TreeWinter.obj
+  artifactKey: Guid(c376a388c69c08a4984738ecada1e700) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/TreeWinter.obj using Guid(c376a388c69c08a4984738ecada1e700) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1eb4228e34cd7e5d4d46ffed8435e64f') in 0.030968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cube Environment/Models/Log.obj
+  artifactKey: Guid(13e4b3060f6c2b54180f6b516f69905c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/Log.obj using Guid(13e4b3060f6c2b54180f6b516f69905c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca31f6f3771abc33b813eed6bf299a7f') in 0.028413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Scenes/ForestExample.unity
+  artifactKey: Guid(5f9b9a77812f4d14b8bfab521ad81b1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Scenes/ForestExample.unity using Guid(5f9b9a77812f4d14b8bfab521ad81b1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eccd1701cb9f6dc88e02d232b36db027') in 0.011866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Rock.mat
+  artifactKey: Guid(43537a35cd488174998d2365c930f599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/Rock.mat using Guid(43537a35cd488174998d2365c930f599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f967038e6dcc4bb157d4acc770b9eece') in 0.015342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Models/TelephonePole.obj
+  artifactKey: Guid(4a95e5f523a8c154ab5513d87d8ad919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/TelephonePole.obj using Guid(4a95e5f523a8c154ab5513d87d8ad919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f56190bf1b99b361e54b27ec9d665a25') in 0.029171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Models/Bench.obj
+  artifactKey: Guid(88f2fe68daff81a4987fe6463bd3228f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/Bench.obj using Guid(88f2fe68daff81a4987fe6463bd3228f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8cce0e96f264e2adf1016b9263ffa70') in 0.039375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Script/GameManager.cs
+  artifactKey: Guid(dac4628b32dd9af43acd8e324a5b5fac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/GameManager.cs using Guid(dac4628b32dd9af43acd8e324a5b5fac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19460e78ad1818299c0dfb5ca752160e') in 0.011898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Cube Environment/Texture/Materials/LightPost2.mat
+  artifactKey: Guid(cbde10eb0193ca240bd482c7d915eaf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Materials/LightPost2.mat using Guid(cbde10eb0193ca240bd482c7d915eaf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afa23eff35cdaa21661c05a5aa79d2cc') in 0.015553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cube Environment/Texture/Color/RecyclingBinGreen.png
+  artifactKey: Guid(a94e11b56916e67409b14c02e454b212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Texture/Color/RecyclingBinGreen.png using Guid(a94e11b56916e67409b14c02e454b212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20c897961ce29027f53e0f91ecd690e7') in 0.031494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cube Environment/Models/Grass.obj
+  artifactKey: Guid(e2535121279253c47a2a85cfa841ba55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cube Environment/Models/Grass.obj using Guid(e2535121279253c47a2a85cfa841ba55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96deac6253ce76469799213284383bf0') in 0.026099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

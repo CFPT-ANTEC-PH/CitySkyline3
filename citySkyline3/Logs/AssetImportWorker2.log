@@ -232,3 +232,184 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8948.425792 seconds.
+  path: Assets/Cube Environment/Models/Bench.obj
+  artifactKey: Guid(88f2fe68daff81a4987fe6463bd3228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/Bench.obj using Guid(88f2fe68daff81a4987fe6463bd3228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8863eed9e57e5a736c52d76a997f24b8') in 0.258551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Texture/Materials/TreeWinter.mat
+  artifactKey: Guid(7afa5069fa7849d44bb935dce9b6d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/TreeWinter.mat using Guid(7afa5069fa7849d44bb935dce9b6d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48b1c505b715ad18e1e2da53e291402') in 0.016060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cube Environment/Texture/Materials/LightPost2.mat
+  artifactKey: Guid(cbde10eb0193ca240bd482c7d915eaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/LightPost2.mat using Guid(cbde10eb0193ca240bd482c7d915eaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42949daf2c69bf74091e1a6e983c5546') in 0.015314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cube Environment/Models/TreeWinter.obj
+  artifactKey: Guid(c376a388c69c08a4984738ecada1e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/TreeWinter.obj using Guid(c376a388c69c08a4984738ecada1e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e7d1a863907943335fb48233048783') in 0.071101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Cube Environment/Models/RecyclingBinBlue.obj
+  artifactKey: Guid(30a58a4fc88a7f540a0e9b2fb447e6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/RecyclingBinBlue.obj using Guid(30a58a4fc88a7f540a0e9b2fb447e6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a22813feb346b135d46fa7f6825088') in 0.029527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cube Environment/Texture/Materials/RecyclingBinGreen.mat
+  artifactKey: Guid(4e71f2fb11a8a184aa37e98b3a04fba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/RecyclingBinGreen.mat using Guid(4e71f2fb11a8a184aa37e98b3a04fba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536409b7444307bc7971eb397c815aa5') in 0.013487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Texture/Materials/StreetLight.mat
+  artifactKey: Guid(26a359006b59eb347be1f6cd5d6ff338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/StreetLight.mat using Guid(26a359006b59eb347be1f6cd5d6ff338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0065fcfb6e320b132db07537bc202109') in 0.012603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cube Environment/Models/TrafficCone.obj
+  artifactKey: Guid(abef2a761feba3f40850f1dbee18ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/TrafficCone.obj using Guid(abef2a761feba3f40850f1dbee18ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74be7c0e94f724cde3c40b845f607c6') in 0.047400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Rock.mat
+  artifactKey: Guid(43537a35cd488174998d2365c930f599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/Rock.mat using Guid(43537a35cd488174998d2365c930f599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05c9308bfff32b081ef9042de5c9110') in 0.013880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Road1.mat
+  artifactKey: Guid(27249fb4b21148b4aaaf8a85aa009e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/Road1.mat using Guid(27249fb4b21148b4aaaf8a85aa009e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c187c46f63f2c394789d1b1a5cdb725c') in 0.012717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cube Environment/Texture/Materials/TreeAutumn.mat
+  artifactKey: Guid(891420363bb43254b9f53fb075ae2474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/TreeAutumn.mat using Guid(891420363bb43254b9f53fb075ae2474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2425ff1c39bee05f800fafd6493a6d1e') in 0.013404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cube Environment/Models/FireHydrant.obj
+  artifactKey: Guid(356c18216aff0604eb8d95d3b1f89c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/FireHydrant.obj using Guid(356c18216aff0604eb8d95d3b1f89c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952d003efdcea7b63f885e6dc5a45a70') in 0.022222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube Environment/Texture/Materials/TrafficCone.mat
+  artifactKey: Guid(010e149cf959a5b4db9efefaec1cf5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/TrafficCone.mat using Guid(010e149cf959a5b4db9efefaec1cf5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c2e3e5817795b27c70ba82d248d7ed') in 0.011326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Grass.mat
+  artifactKey: Guid(c7b7496c834724140b5533bbff713ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/Grass.mat using Guid(c7b7496c834724140b5533bbff713ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3523d93686120acc7ef05725f3af6d19') in 0.013346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube Environment/Models/LightPost3.obj
+  artifactKey: Guid(7bf4d58e5abf8e348bd35eec99605588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/LightPost3.obj using Guid(7bf4d58e5abf8e348bd35eec99605588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b64e3d3f4b7ac8a16867f09bc21a78') in 0.022347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cube Environment/Texture/Materials/TreeSummer.mat
+  artifactKey: Guid(8609b3666876b2747ba417e45635de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/TreeSummer.mat using Guid(8609b3666876b2747ba417e45635de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8f4e6547419b7d66b7b260da812210') in 0.011698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube Environment/Models/WaterBaril.obj
+  artifactKey: Guid(c27f5ecbacece0f4691f64d5fceb65fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/WaterBaril.obj using Guid(c27f5ecbacece0f4691f64d5fceb65fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f07d11ec7ae6ff98d4fc5d48c492f53') in 0.020532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cube Environment/Texture/Materials/StopSing.mat
+  artifactKey: Guid(a066e1fe6bdff704baf9670ee26ac246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/StopSing.mat using Guid(a066e1fe6bdff704baf9670ee26ac246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734188cf56cb8e291706a792a7d4afde') in 0.015413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube Environment/Models/LightPost2.obj
+  artifactKey: Guid(464c06eadec08b346a627cc84b1ef4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/LightPost2.obj using Guid(464c06eadec08b346a627cc84b1ef4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5b3cd816482c8d1dbdaa86dff374d6') in 0.023032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cube Environment/Texture/Materials/Road2.mat
+  artifactKey: Guid(e5d4abacf5e07784d8efe3dac8cc1496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Texture/Materials/Road2.mat using Guid(e5d4abacf5e07784d8efe3dac8cc1496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664bfddfe76d7300d3a2a01fc8cb6d0e') in 0.014073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cube Environment/Models/TelephonePole.obj
+  artifactKey: Guid(4a95e5f523a8c154ab5513d87d8ad919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/TelephonePole.obj using Guid(4a95e5f523a8c154ab5513d87d8ad919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630a042dcec2c709f4247a47d774107a') in 0.023781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cube Environment/Models/Road2.obj
+  artifactKey: Guid(1b04b01cf88dbb2488cbda23deaa1bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Environment/Models/Road2.obj using Guid(1b04b01cf88dbb2488cbda23deaa1bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d8594940dc94643e7653e0917e8323') in 0.021216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
