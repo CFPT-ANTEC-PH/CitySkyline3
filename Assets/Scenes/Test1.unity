@@ -209,7 +209,7 @@ Transform:
   m_GameObject: {fileID: 20999005}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2664434, y: -0, z: -0, w: 0.96385056}
-  m_LocalPosition: {x: 0, y: 78.3, z: -97.8}
+  m_LocalPosition: {x: 0, y: 81.4, z: -98.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -355,8 +355,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Debug: 1
   roadBlockPrefabs:
-  - {fileID: 9152714342778907783, guid: 05da3d7e3ee44d240887c06c530f4001, type: 3}
   - {fileID: 9152714342778907783, guid: 87ba57a12b2d0e543b36d4cbc2ea73ef, type: 3}
+  - {fileID: 9152714342778907783, guid: 05da3d7e3ee44d240887c06c530f4001, type: 3}
+  - {fileID: 9152714342778907783, guid: 9cbe91ceecd09ee4b85fe3654c3d4365, type: 3}
   terrainSize: {x: 100, y: 100}
   blockSize: {x: 10, y: 10}
   rows: 10

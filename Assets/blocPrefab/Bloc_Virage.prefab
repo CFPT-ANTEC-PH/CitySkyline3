@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4597315559508667040}
   - component: {fileID: 1841741062892176847}
   - component: {fileID: 5005128142920125795}
-  - component: {fileID: 2553409454746008636}
+  - component: {fileID: 1113892868552626313}
   m_Layer: 0
-  m_Name: Connected4
+  m_Name: Connected
   m_TagString: connected
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
---- !u!114 &2553409454746008636
+--- !u!114 &1113892868552626313
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,10 +131,10 @@ GameObject:
   - component: {fileID: 3089430159205288230}
   - component: {fileID: 4731098713661539329}
   - component: {fileID: 7310348535637110963}
-  - component: {fileID: 8453919407461818472}
+  - component: {fileID: 4923896623588676802}
   m_Layer: 0
-  m_Name: Connected2
-  m_TagString: connected
+  m_Name: NotConnected
+  m_TagString: notConnected
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +225,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
---- !u!114 &8453919407461818472
+--- !u!114 &4923896623588676802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4659606829150271334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9441d893168002459cf3b7b23d6ce7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 30828d75158401c47b383c3c1bf01333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isConnected: 0
@@ -250,10 +250,10 @@ GameObject:
   - component: {fileID: 4974560849533932312}
   - component: {fileID: 3611669443930812526}
   - component: {fileID: 5161307103235145545}
-  - component: {fileID: 4452654079736558981}
+  - component: {fileID: 3475867263105982703}
   m_Layer: 0
-  m_Name: Connected3
-  m_TagString: connected
+  m_Name: NotConnected
+  m_TagString: notConnected
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,7 +344,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
---- !u!114 &4452654079736558981
+--- !u!114 &3475867263105982703
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4965781158068463749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9441d893168002459cf3b7b23d6ce7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 30828d75158401c47b383c3c1bf01333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isConnected: 0
@@ -369,9 +369,9 @@ GameObject:
   - component: {fileID: 3691016242950919502}
   - component: {fileID: 3332010516726001043}
   - component: {fileID: 4498750958818432911}
-  - component: {fileID: 6624685608698137215}
+  - component: {fileID: 7393574258836873754}
   m_Layer: 0
-  m_Name: Connected1
+  m_Name: Connected
   m_TagString: connected
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
---- !u!114 &6624685608698137215
+--- !u!114 &7393574258836873754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 7304472664243653338}
   - component: {fileID: 1178390944032227821}
   m_Layer: 0
-  m_Name: Bloc_croisement
+  m_Name: Bloc_Virage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -661,11 +661,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4760508330898026, guid: f5567cfc598b9a943a3afb75b39fe608, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0087303
+      value: 0.57800245
       objectReference: {fileID: 0}
     - target: {fileID: 4760508330898026, guid: f5567cfc598b9a943a3afb75b39fe608, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.668
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 4760508330898026, guid: f5567cfc598b9a943a3afb75b39fe608, type: 3}
       propertyPath: m_LocalPosition.y
@@ -673,7 +673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4760508330898026, guid: f5567cfc598b9a943a3afb75b39fe608, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0341
+      value: -27.166
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -759,7 +759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4760508330898026, guid: f5567cfc598b9a943a3afb75b39fe608, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0087303
+      value: 0.5729588
       objectReference: {fileID: 0}
     - target: {fileID: 4760508330898026, guid: f5567cfc598b9a943a3afb75b39fe608, type: 3}
       propertyPath: m_LocalPosition.x
@@ -771,7 +771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4760508330898026, guid: f5567cfc598b9a943a3afb75b39fe608, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0341
+      value: -27.478
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
