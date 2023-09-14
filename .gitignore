@@ -72,6 +72,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 citySkyline3/Temp/UnityLockfile
 citySkyline3/Temp/workerlic
+citySkyline3/Temp/*
 citySkyline3/Temp/FSTimeGet-a78ea5bc1d017e74bb16ea73ffe5568c
 citySkyline3/Temp/FSTimeGet-205fb2b7d9a73234cb01992e776f3294
 citySkyline3/Temp/FSTimeGet-0056f9109d730c74d9230cff7f8ee66e
