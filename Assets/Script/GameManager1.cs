@@ -24,6 +24,9 @@ public class GameManager1 : MonoBehaviour
         PlaceRoadBlocksInGrid();
     }
 
+    // Est ce que si je suis dans le start je peux accédes au onCollision 
+    // Start trop tot ?
+    // Le faire dans l'update
     void PlaceRoadBlocksInGrid()
     {
         float startX = -(terrainSize.x / 2) + (blockSize.x / 2);
@@ -107,10 +110,6 @@ public class GameManager1 : MonoBehaviour
                             {
                                 print(connectedCube.GetComponent<testNotConnected>().notConnected + "- -" + roadBlock.name);
                                 listBool.Add(connectedCube.GetComponent<testNotConnected>().notConnected);
-
-
-
-
 
                             }
 

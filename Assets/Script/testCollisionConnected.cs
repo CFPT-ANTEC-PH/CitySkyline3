@@ -7,17 +7,35 @@ public class testCollisionConnected : MonoBehaviour
 {
 
     public bool connected = true;
-    public bool notConnected;
+    public bool notConnected = true;
     // Start is called before the first frame update
     private void Awake()
     {
         //  Debug.Log(" LA!");
-
+       
+        Debug.Log(notConnected);
     }
 
     private void Update()
     {
 
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        // Vérifier si la collision concerne un autre cube
+        if (collision.gameObject.CompareTag("connected"))
+        {
+            connected = true;
+            //  Debug.Log("Connected between 2 route" + "---" + gameObject.transform.parent.name);
+
+            // Vous pouvez effectuer ici d'autres actions en réponse à la collision
+        }
+        else if (collision.gameObject.CompareTag("notConnected"))
+        {
+            notConnected = true;
+            connected = false;
+        }
     }
 
     void OnCollisionEnter(Collision collision)
