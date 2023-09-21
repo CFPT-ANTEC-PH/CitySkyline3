@@ -6,31 +6,38 @@ using UnityEngine;
 public class testCollisionConnected : MonoBehaviour
 {
 
-    public bool isConnected;
+    public bool connected = true;
+    public bool notConnected;
     // Start is called before the first frame update
     private void Awake()
     {
-        Debug.Log(" LA!");
+        //  Debug.Log(" LA!");
 
     }
 
     private void Update()
     {
-        
+
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("UNE COL EST LA!");
+
         // Vérifier si la collision concerne un autre cube
         if (collision.gameObject.CompareTag("connected"))
         {
-            isConnected = true;
-            Debug.Log("Collision entre deux cubes détectée !");
+            connected = true;
+          //  Debug.Log("Connected between 2 route" + "---" + gameObject.transform.parent.name);
 
             // Vous pouvez effectuer ici d'autres actions en réponse à la collision
         }
+        else if (collision.gameObject.CompareTag("notConnected"))
+        {
+            notConnected = true;
+            connected = false;
+        }
     }
-
-
 }
+
+
+

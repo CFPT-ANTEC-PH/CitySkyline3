@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 
@@ -16,7 +17,8 @@ public class GameManager1 : MonoBehaviour
     public Vector2 blockSize = new Vector2(10f, 10f);
     public int rows = 10;
     public int columns = 10;
-
+    public List<float> roadBlockRotation;
+    public bool pause;
     void Start()
     {
         PlaceRoadBlocksInGrid();
@@ -33,88 +35,141 @@ public class GameManager1 : MonoBehaviour
         {
             for (int col = 0; col < columns; col++)
             {
-                float x = startX + col * blockSize.x;
-                float z = startZ + row * blockSize.y;
-                Vector3 position = new Vector3(x, 0f, z);
-
-                GameObject roadBlock = new GameObject();
-
-                List<GameObject> connectedCubes = new List<GameObject>();
-                List<GameObject> notConnectedCubes = new List<GameObject>();
-
-
-
-                if (previousBlock != null)
+                bool blockGood = false;
+                while (!blockGood)
                 {
-                    // Instancier le prefab dans la scène
-                    //  GameObject instantiatedRoad = Instantiate(previousBlock);
 
-                    // On instancie le nous block qui va être ajouté 
-                    GameObject selectedRoadBlockPrefab = roadBlockPrefabs[Random.Range(0, roadBlockPrefabs.Count)];
-                    roadBlock = Instantiate(selectedRoadBlockPrefab, position, Quaternion.identity);
+                    float x = startX + col * blockSize.x;
+                    float z = startZ + row * blockSize.y;
+                    Vector3 position = new Vector3(x, 0f, z);
+
+                    GameObject roadBlock = new GameObject();
+
+                    List<GameObject> ListcubeDeCollision = new List<GameObject>();
 
 
-                    // Récupérer les enfants de l'ancien block
-                    Transform prefabTransform = previousBlock.transform;
-                    int childCount = prefabTransform.childCount;
 
-                    for (int i = 0; i < childCount; i++)
+
+
+                    if (previousBlock != null)
                     {
-                        Transform child = prefabTransform.GetChild(i);
-                        if (child.CompareTag("connected"))
+                        print("------------------------------------");
+
+                        bool ConnecteurAllFalse;
+
+                        List<bool> listBool = new List<bool>();
+
+
+                        // Instancier le prefab dans la scène
+                        //  GameObject instantiatedRoad = Instantiate(previousBlock);
+
+                        // On instancie le nous block qui va être ajouté 
+
+
+
+
+
+                        GameObject selectedRoadBlockPrefab = roadBlockPrefabs[Random.Range(0, roadBlockPrefabs.Count)];
+                        roadBlock = Instantiate(selectedRoadBlockPrefab, position, Quaternion.identity);
+                        roadBlock.transform.Rotate(0f, roadBlockRotation[Random.Range(0, roadBlockRotation.Count)], 0f);
+
+                        roadBlock.name = roadBlock.name + "_" + row + "_" + col;
+
+
+
+                        // Récupérer les enfants de l'ancien block
+                        Transform BlocPrefabTransform = roadBlock.transform;
+                        int childCount = BlocPrefabTransform.childCount;
+
+                        for (int i = 0; i < childCount; i++)
                         {
-                            connectedCubes.Add(child.gameObject);
+                            Transform child = BlocPrefabTransform.GetChild(i);
+                            if (child.CompareTag("connected") || child.CompareTag("notConnected"))
+                            {
+                                ListcubeDeCollision.Add(child.gameObject);
+                            }
+
                         }
-                        else if (child.CompareTag("notConnected"))
+
+
+
+
+                        foreach (GameObject connectedCube in ListcubeDeCollision)
                         {
-                            notConnectedCubes.Add(child.gameObject);
+                            if (connectedCube.CompareTag("connected"))
+                            {
+                                // On verifie les route
+                                print(connectedCube.GetComponent<testCollisionConnected>().notConnected + "- -" + roadBlock.name);
+                                listBool.Add(connectedCube.GetComponent<testCollisionConnected>().notConnected);
+
+                            }
+                            else if (connectedCube.CompareTag("notConnected"))
+                            {
+                                print(connectedCube.GetComponent<testNotConnected>().notConnected + "- -" + roadBlock.name);
+                                listBool.Add(connectedCube.GetComponent<testNotConnected>().notConnected);
+
+
+
+
+
+                            }
+
+
                         }
+
+                        print("List " + listBool.Count);
+
+                        if (listBool.Any(b => b == true))
+                        {
+                            print("Au moins un élément est vrai" + " " + roadBlock.name);
+                            ConnecteurAllFalse = false;
+                        }
+                        else
+                        {
+                            print("Aucun élément n'est vrai " + roadBlock.name);
+                            ConnecteurAllFalse = true;
+                        }
+
+
+
+
+                        if (ConnecteurAllFalse)
+                        {
+
+
+                            previousBlock = roadBlock;
+
+                            blockGood = true;
+
+                        }
+                        else
+                        {
+                            Destroy(roadBlock);
+
+                        }
+                        print("------------------------------------");
+
+
+                    }
+                    else
+                    {
+                        print("PREMIER BLOCK");
+                        // Connecter le point de sortie du bloc à un point de sortie en dehors de la zone de jeu
+                        GameObject selectedRoadBlockPrefab = roadBlockPrefabs[0];
+
+                        roadBlock = Instantiate(selectedRoadBlockPrefab, position, Quaternion.identity);
+                        roadBlock.transform.Rotate(0f, 90f, 0f);
+                        roadBlock.name = roadBlock.name + "_" + row + "_" + col;
+                        previousBlock = roadBlock;
+                        blockGood = true;
+
+
+
                     }
 
-                    foreach (GameObject connectedCube in connectedCubes)
-                    {
-                        // Obtenir le collider de l'objet connecté actuel
-                        Collider collider = connectedCube.GetComponent<Collider>();
-
-                        // Vérifier si quelque chose touche le collider
-                        Collider[] collidersInContact = Physics.OverlapBox(
-                            collider.bounds.center, // Centre du collider
-                            collider.bounds.extents, // Demi-taille du collider
-                            Quaternion.identity, // Rotation
-                            LayerMask.GetMask("connected") // Remplacez "YourLayerMask" par le masque de couche approprié
-                        );
-
-                        // Vérifier s'il y a eu une collision
-                        if (collidersInContact.Length > 0)
-                        {
-                            // Une collision a été détectée avec cet objet connecté
-                            print("Collision détectée avec l'objet connecté : " + connectedCube.name + "___" + previousBlock.name);
-                        }
-
-                        // ALALAL C DUR
-                        // Vous avez maintenant vos listes de cubes connectés et non connectés prêtes à être utilisées
-
-
-
-                        // Choisissez aléatoirement un prefab de bloc de route
-
-
-                    }
-                }
-                else
-                {
-                    print("PREMIER BLOCK");
-                    // Connecter le point de sortie du bloc à un point de sortie en dehors de la zone de jeu
-                    GameObject selectedRoadBlockPrefab = roadBlockPrefabs[0];
-
-                    roadBlock = Instantiate(selectedRoadBlockPrefab, position, Quaternion.identity);
-                    roadBlock.transform.Rotate(0f, 90f, 0f);
-
                 }
 
-                roadBlock.name = roadBlock.name + "_" + row + "_" + col;
 
-                previousBlock = roadBlock;
 
                 // Rotate the road block if necessary
                 // roadBlock.transform.Rotate(0f, Random.Range(0, 4) * 90f, 0f);
@@ -123,4 +178,9 @@ public class GameManager1 : MonoBehaviour
     }
 
 
+
+
 }
+
+
+
