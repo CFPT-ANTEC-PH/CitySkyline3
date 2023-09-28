@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Unity.VisualScripting;
 
 
 
-public class GameManager1 : MonoBehaviour
+
+public class creation : MonoBehaviour
 {
     // Start is called before the first frame update
     public bool Debug;
@@ -23,28 +25,34 @@ public class GameManager1 : MonoBehaviour
     public bool AllCollisionDetected = false;
     void Start()
     {
-        start = true;
+   
+        StartCoroutine(PlaceRoadBlocksInGrid());
     }
 
     private void Update()
     {
-        PlaceRoadBlocksInGrid();
+       
+
+      
+
     }
 
 
-    IEnumerator wait(float temps)
+   IEnumerator wait(float temps)
     {
         // Code avant la pause
 
         yield return new WaitForSeconds(temps); // Pause pendant 2 secondes
-
+        print(temps + " temps apres la coroutine");
         // Code après la pause
     }
 
+
+   
     IEnumerator waitForCollision() {
         
-        yield return new WaitForSeconds(0.5f); 
-        AllCollisionDetected = true;
+        yield return new WaitForSeconds(1f); 
+       
        
     }
 
@@ -53,10 +61,9 @@ public class GameManager1 : MonoBehaviour
     // Est ce que si je suis dans le start je peux accédes au onCollision 
     // Start trop tot ?
     // Le faire dans l'update
-    void PlaceRoadBlocksInGrid()
+    IEnumerator PlaceRoadBlocksInGrid()
     {
-        if (start)
-        {
+  
             start = false;
             float startX = -(terrainSize.x / 2) + (blockSize.x / 2);
             float startZ = -(terrainSize.y / 2) + (blockSize.y / 2);
@@ -70,50 +77,32 @@ public class GameManager1 : MonoBehaviour
                     bool blockGood = false;
                     while (!blockGood)
                     {
-
+                        
                         float x = startX + col * blockSize.x;
                         float z = startZ + row * blockSize.y;
                         Vector3 position = new Vector3(x, 0f, z);
-
                         GameObject roadBlock = new GameObject();
-
                         List<GameObject> ListcubeDeCollision = new List<GameObject>();
-
-
-
-
 
                         if (previousBlock != null)
                         {
-                            print("------------------------------------");
+                         
 
                             bool ConnecteurAllFalse;
-
                             List<bool> listBool = new List<bool>();
-
                             List<string> listStringAllCol = new List<string>();
 
-
-                     
-                            // Instancier le prefab dans la scène
-                            //  GameObject instantiatedRoad = Instantiate(previousBlock);
-
                             // On instancie le nous block qui va être ajouté 
-
-
-
-
-
                             GameObject selectedRoadBlockPrefab = roadBlockPrefabs[Random.Range(0, roadBlockPrefabs.Count)];
                             roadBlock = Instantiate(selectedRoadBlockPrefab, position, Quaternion.identity);
                             roadBlock.transform.Rotate(0f, roadBlockRotation[Random.Range(0, roadBlockRotation.Count)], 0f);
-
                             roadBlock.name = roadBlock.name + "_Row:" + row + "_Col:" + col;
 
+                             // Pause de 1 seconde
+                            yield return new WaitForSeconds(0.05f);
 
-
-
-
+                         
+                            // On ajoute les connecteurs dans la liste
                             int childCount = roadBlock.transform.childCount;
 
                             for (int i = 0; i < childCount; i++)
@@ -126,12 +115,11 @@ public class GameManager1 : MonoBehaviour
 
                             }
 
+                         
 
 
-                            while (!AllCollisionDetected)
-                            {
-
-                                foreach (GameObject connectedCube in ListcubeDeCollision)
+                            // On ajoute dans la liste toute les variables pour savoir si le bloc est autorisé a être connecté
+                            foreach (GameObject connectedCube in ListcubeDeCollision)
                                 {
                                     if (connectedCube.CompareTag("connected"))
                                     {
@@ -148,27 +136,18 @@ public class GameManager1 : MonoBehaviour
                                     }
                                 }
 
-
-
-                                StartCoroutine(waitForCollision()); 
-
-                            }
-                            print("List " + listBool.Count);
-
                             if (listBool.Any(b => b == true))
                             {
-                                print("Au moins un élément est vrai" + " " + roadBlock.name);
+                               
                                 ConnecteurAllFalse = false;
                             }
                             else
                             {
-                                print("Aucun élément n'est vrai " + roadBlock.name);
+                                
                                 ConnecteurAllFalse = true;
                             }
 
-
-
-
+                            // Verifie si le bloc est bien posé 
                             if (ConnecteurAllFalse)
                             {
                                 previousBlock = roadBlock;
@@ -176,11 +155,9 @@ public class GameManager1 : MonoBehaviour
                             }
                             else
                             {
-                                Destroy(roadBlock);
+                                DestroyImmediate(roadBlock);
                             }
-                            print("------------------------------------");
-
-
+                            
                         }
                         else
                         {
@@ -192,22 +169,26 @@ public class GameManager1 : MonoBehaviour
                             roadBlock.name = roadBlock.name + "_" + row + "_" + col;
                             previousBlock = roadBlock;
                             blockGood = true;
-                            StartCoroutine(wait(0.5f));
+                            
                         }
 
                     }
-
-
-
-                    // Rotate the road block if necessary
-                    // roadBlock.transform.Rotate(0f, Random.Range(0, 4) * 90f, 0f);
                 }
+            
+        }
+        GameObject[] allObjects = GameObject.FindObjectsOfType<GameObject>();
+
+        foreach (GameObject obj in allObjects)
+        {
+            if (obj.name == "New Game Object" && obj.transform.childCount == 0)
+            {
+                Destroy(obj);
+                // Ou utilisez DestroyImmediate(obj) pour une destruction immédiate
             }
         }
+
+        print("La map a été crée !");
     }
-
-
-
 
 }
 

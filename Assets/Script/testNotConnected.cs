@@ -7,11 +7,12 @@ public class testNotConnected : MonoBehaviour
 {
     public bool isConnected = false;
     public bool notConnected = false;
+    public string connectionDetected = "pas detecté";
 
 
     private void Awake()
     {
-        //  Debug.Log(" LA!");
+        // Debug.Log(" LA!");
 
     }
 
@@ -20,25 +21,8 @@ public class testNotConnected : MonoBehaviour
 
     }
 
-    private void OnCollisionStay(Collision collision)
-    {
-        // Vérifier si la collision concerne un autre cube
-        // Debug.Log("Connected between 2 object");
-
-        // Vérifier si la collision concerne un autre cube
-        if (collision.gameObject.CompareTag("notConnected"))
-        {
-            isConnected = true;
-            //  Debug.Log("Connected between 2 vide");
-
-            // Vous pouvez effectuer ici d'autres actions en réponse à la collision
-        }
-        else if (collision.gameObject.CompareTag("connected"))
-        {
-            isConnected = false;
-            notConnected = true;
-        }
-    }
+  
+    
     // Start is called before the first frame update
     void OnCollisionEnter(Collision collision)
     {
@@ -48,7 +32,10 @@ public class testNotConnected : MonoBehaviour
         if (collision.gameObject.CompareTag("notConnected"))
         {
             isConnected = true;
-          //  Debug.Log("Connected between 2 vide");
+            notConnected = false;
+            connectionDetected = "detecte";
+
+            //  Debug.Log("Connected between 2 vide");
 
             // Vous pouvez effectuer ici d'autres actions en réponse à la collision
         }
@@ -56,6 +43,8 @@ public class testNotConnected : MonoBehaviour
         {
             isConnected = false;
             notConnected = true;
+            connectionDetected = "detecte";
+
         }
     }
 }
