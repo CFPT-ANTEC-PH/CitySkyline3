@@ -121,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connected: 1
   notConnected: 1
+  connectionDetected: "pas detect\xE9"
 --- !u!54 &5016025683935055599
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -269,6 +270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connected: 1
   notConnected: 1
+  connectionDetected: "pas detect\xE9"
 --- !u!54 &5991857732502138714
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -417,6 +419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connected: 1
   notConnected: 1
+  connectionDetected: "pas detect\xE9"
 --- !u!54 &4755765182249144717
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -456,8 +459,8 @@ GameObject:
   - component: {fileID: 3691016242950919502}
   - component: {fileID: 3332010516726001043}
   - component: {fileID: 4498750958818432911}
-  - component: {fileID: 6624685608698137215}
   - component: {fileID: 6003062073989049074}
+  - component: {fileID: 6607744134360216944}
   m_Layer: 6
   m_Name: Connected1
   m_TagString: notConnected
@@ -551,20 +554,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
---- !u!114 &6624685608698137215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8851471353736772100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9441d893168002459cf3b7b23d6ce7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  connected: 1
-  notConnected: 1
 --- !u!54 &6003062073989049074
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -592,6 +581,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &6607744134360216944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8851471353736772100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30828d75158401c47b383c3c1bf01333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  notConnected: 0
+  connectionDetected: "pas detect\xE9"
 --- !u!1 &9152714342778907783
 GameObject:
   m_ObjectHideFlags: 0

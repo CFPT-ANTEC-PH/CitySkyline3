@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2291622}
   - component: {fileID: 2291623}
+  - component: {fileID: 2291624}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -168,15 +169,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Debug: 0
+  MapCree: 0
   roadBlockPrefabs:
   - {fileID: 9152714342778907783, guid: 87ba57a12b2d0e543b36d4cbc2ea73ef, type: 3}
   - {fileID: 9152714342778907783, guid: 05da3d7e3ee44d240887c06c530f4001, type: 3}
   - {fileID: 9152714342778907783, guid: 9cbe91ceecd09ee4b85fe3654c3d4365, type: 3}
   - {fileID: 9152714342778907783, guid: 6b1bbf83c9e7c6b4caa5482e0a5135ae, type: 3}
+  - {fileID: 9152714342778907783, guid: 85f8a3edaabf98e46997ba131f75f979, type: 3}
   terrainSize: {x: 100, y: 100}
   blockSize: {x: 10, y: 10}
-  rows: 10
-  columns: 10
+  rows: 5
+  columns: 5
   roadBlockRotation:
   - 0
   - 90
@@ -184,6 +187,27 @@ MonoBehaviour:
   - 270
   pause: 0
   AllCollisionDetected: 0
+  dossierBlocParent: {fileID: 363362114}
+  allBlock: []
+  allCubeCollision: []
+  allEntre: []
+--- !u!114 &2291624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2291620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c5f1ff3baf3d54c80d6ab3a719f947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptCreation: {fileID: 2291623}
+  entranceCar: []
+  carPrefab:
+  - {fileID: 8002033031059434983, guid: 65ad74f4a1ea1d94ba479b15b19549ea, type: 3}
+  DossierParentCar: {fileID: 986019517}
 --- !u!1 &237677633
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,6 +302,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &363362113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 363362114}
+  m_Layer: 0
+  m_Name: DossierBloc
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &363362114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363362113}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &986019516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 986019517}
+  m_Layer: 0
+  m_Name: DossierCar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &986019517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986019516}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.56261, y: -6.800453, z: -21.651016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1838733616
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +450,7 @@ Transform:
   m_GameObject: {fileID: 1838733616}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4726143, y: -0, z: -0, w: 0.88126945}
-  m_LocalPosition: {x: 110, y: 204.5, z: -112.8}
+  m_LocalPosition: {x: -27.8, y: 67.6, z: -73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -377,3 +463,5 @@ SceneRoots:
   - {fileID: 1838733619}
   - {fileID: 237677635}
   - {fileID: 2291622}
+  - {fileID: 363362114}
+  - {fileID: 986019517}
