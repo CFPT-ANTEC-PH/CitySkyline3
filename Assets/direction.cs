@@ -39,15 +39,11 @@ public class direction : MonoBehaviour
 
         if (other.gameObject.CompareTag("car"))
         {
-            other.gameObject.GetComponent<carMover>().distCovered = 0;
-            other.gameObject.GetComponent<carMover>().fracJourney = 0;
 
             Debug.Log("TOUCHE " + other.gameObject.name);
-            other.gameObject.GetComponent<carMover>().endPoint = next;
-            other.gameObject.GetComponent<carMover>().startPoint = gameObject.transform;
-
-    
-
+         
+            other.gameObject.GetComponent<carMover>().waypoints.AddRange(gameObject.transform);
+            other.gameObject.GetComponent<carMover>().waypoints.AddRange(next);
 
             other.gameObject.GetComponent<carMover>().start = true;
 
