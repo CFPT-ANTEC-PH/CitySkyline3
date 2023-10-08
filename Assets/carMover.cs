@@ -1,4 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+
 
 public class carMover : MonoBehaviour
 {
@@ -6,7 +10,7 @@ public class carMover : MonoBehaviour
     public bool start = false;
 
     public float speed = 1.0f;
-    public Transform[] waypoints;
+    public List<Transform> waypoints;
     private int currentWaypointIndex = 0;
     public bool startMovement = false;
     void Start()
@@ -21,10 +25,7 @@ public class carMover : MonoBehaviour
         {
             start = false;
           
-            for (int i = 0; i < waypoints.Length; i++)
-            {
-                waypoints[i] = transform.GetChild(i);
-            }
+
             startMovement = true;
         }
 
@@ -38,11 +39,12 @@ public class carMover : MonoBehaviour
 
     void MoveTowardsWaypoint()
     {
-        if (currentWaypointIndex < waypoints.Length)
+        if (currentWaypointIndex < waypoints.Count)
         {
             // Obtenez la direction du waypoint actuel
             Vector3 direction = (waypoints[currentWaypointIndex].position - transform.position).normalized;
-
+            Quaternion rotation = Quaternion.LookRotation(direction);
+            transform.rotation = rotation;
             // Déplacez le véhicule vers le waypoint
             transform.Translate(direction * speed * Time.deltaTime, Space.World);
 
@@ -54,7 +56,7 @@ public class carMover : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            currentWaypointIndex = 0;
         }
     }
 
