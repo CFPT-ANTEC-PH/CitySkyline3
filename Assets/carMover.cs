@@ -11,8 +11,9 @@ public class carMover : MonoBehaviour
 
     public float speed = 1.0f;
     public List<Transform> waypoints;
-    private int currentWaypointIndex = 0;
+    public int currentWaypointIndex = 0;
     public bool startMovement = false;
+    public bool aUneSortie = false;
     void Start()
     {
         // Initialiser les waypoints (ajoutez les waypoints dans l'inspecteur Unity)
