@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   choix:
-  - {fileID: 1110759576551679591}
+  - {fileID: 8362043735866636221}
   - {fileID: 1048136702609544046}
   - {fileID: 165001415853897289}
 --- !u!1 &2890104410829123532
@@ -505,8 +505,8 @@ Transform:
   m_GameObject: {fileID: 2890104410829123532}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.43, y: -1.4210148, z: 3.42}
-  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.58078134}
+  m_LocalPosition: {x: 4.6552, y: -1.4210148, z: 3.42}
+  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.13026926}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7872625679097390257}
@@ -1367,8 +1367,8 @@ Transform:
   m_GameObject: {fileID: 5193922796337718418}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.10356331, y: -1.4210148, z: -1.6630325}
-  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.58078134}
+  m_LocalPosition: {x: 0.10356331, y: -1.4210148, z: -1.8785}
+  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.14989966}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7872625679097390257}
@@ -1515,8 +1515,8 @@ Transform:
   m_GameObject: {fileID: 5195354261090156001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -4.94, y: -1.4210148, z: 2.67}
-  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.58078134}
+  m_LocalPosition: {x: -5.1652, y: -1.4210148, z: 2.67}
+  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.13026926}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7872625679097390257}
@@ -1813,8 +1813,8 @@ Transform:
   m_GameObject: {fileID: 7046712660982075019}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.58, y: -1.4210148, z: 7.7}
-  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.58078134}
+  m_LocalPosition: {x: -0.58, y: -1.4210148, z: 7.9252}
+  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.13026926}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7872625679097390257}

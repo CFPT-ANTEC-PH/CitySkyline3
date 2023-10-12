@@ -17,7 +17,7 @@ public class carMover : MonoBehaviour
     void Start()
     {
         // Initialiser les waypoints (ajoutez les waypoints dans l'inspecteur Unity)
-     
+
     }
 
     void Update()
@@ -25,7 +25,7 @@ public class carMover : MonoBehaviour
         if (start)
         {
             start = false;
-          
+
 
             startMovement = true;
         }
@@ -35,7 +35,7 @@ public class carMover : MonoBehaviour
             MoveTowardsWaypoint();
         }
         // Implémentez le mouvement du véhicule ici
-     
+
     }
 
     void MoveTowardsWaypoint()
@@ -58,6 +58,19 @@ public class carMover : MonoBehaviour
         else
         {
             currentWaypointIndex = 0;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (currentWaypointIndex > 1)
+        {
+
+
+            if (other.gameObject.CompareTag("sortie"))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 

@@ -178,8 +178,8 @@ MonoBehaviour:
   - {fileID: 9152714342778907783, guid: 85f8a3edaabf98e46997ba131f75f979, type: 3}
   terrainSize: {x: 100, y: 100}
   blockSize: {x: 10, y: 10}
-  rows: 5
-  columns: 5
+  rows: 10
+  columns: 10
   roadBlockRotation:
   - 0
   - 90

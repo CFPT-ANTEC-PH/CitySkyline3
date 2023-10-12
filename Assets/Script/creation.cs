@@ -115,7 +115,7 @@ public class creation : MonoBehaviour
                         roadBlock.name = roadBlock.name + "_Row:" + row + "_Col:" + col;
 
                         // Pause de 1 seconde
-                        yield return new WaitForSeconds(0.05f);
+                        yield return new WaitForSeconds(0.02f);
 
 
                         // On ajoute les connecteurs dans la liste
@@ -179,7 +179,7 @@ public class creation : MonoBehaviour
                     {
                         print("PREMIER BLOCK");
                         // Connecter le point de sortie du bloc à un point de sortie en dehors de la zone de jeu
-                        GameObject selectedRoadBlockPrefab = roadBlockPrefabs[0];
+                        GameObject selectedRoadBlockPrefab = roadBlockPrefabs[Random.Range(0, roadBlockPrefabs.Count)];
                         roadBlock = Instantiate(selectedRoadBlockPrefab, position, Quaternion.identity);
                         roadBlock.transform.Rotate(0f, 90f, 0f);
                         roadBlock.transform.parent = dossierBlocParent;
