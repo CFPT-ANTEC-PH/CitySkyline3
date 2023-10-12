@@ -50,6 +50,10 @@ public class carMove : MonoBehaviour
             // Vérifiez si la position X diminue et ajustez la rotation si nécessaire.
 
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
