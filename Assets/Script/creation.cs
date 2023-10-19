@@ -21,7 +21,7 @@ public class creation : MonoBehaviour
     public int columns = 10;
     public List<float> roadBlockRotation;
     public bool pause;
-    private bool start = false;
+     private bool start = false;
     public bool AllCollisionDetected = false;
     public Transform dossierBlocParent;
     public List<GameObject> allBlock = new List<GameObject>();

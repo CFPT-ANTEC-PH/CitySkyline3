@@ -622,7 +622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 8362043735866636221}
-  waypoint: {fileID: 3393056919019369250}
+  waypoint:
+  - {fileID: 3393056919019369250}
 --- !u!1 &3608585340804667114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,7 +1485,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 5100284194550355017}
-  waypoint: {fileID: 7692254312344424094}
+  waypoint:
+  - {fileID: 7692254312344424094}
 --- !u!1 &5195354261090156001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,7 +1634,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 8362043735866636221}
-  waypoint: {fileID: 1122130102370656454}
+  waypoint:
+  - {fileID: 1122130102370656454}
 --- !u!1 &6318283817152445598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,7 +1933,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 5100284194550355017}
-  waypoint: {fileID: 4131983464296429177}
+  waypoint:
+  - {fileID: 4131983464296429177}
 --- !u!1 &8012142251825167324
 GameObject:
   m_ObjectHideFlags: 0

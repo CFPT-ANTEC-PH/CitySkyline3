@@ -147,7 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 8976694797572954925}
-  waypoint: {fileID: 2582163262953153723}
+  waypoint:
+  - {fileID: 2582163262953153723}
 --- !u!1 &2308954159972323117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,7 +1179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 3275073269279421787}
-  waypoint: {fileID: 5908973149149598416}
+  waypoint:
+  - {fileID: 5908973149149598416}
 --- !u!1 &8676880838085842035
 GameObject:
   m_ObjectHideFlags: 0

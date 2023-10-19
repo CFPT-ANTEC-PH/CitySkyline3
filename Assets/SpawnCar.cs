@@ -14,6 +14,7 @@ public class SpawnCar : MonoBehaviour
     private int nbCar;
     private int nbEntre;
     private bool canCarspawn;
+    public float timeSpawnInterval;
 
     void Start()
     {
@@ -39,7 +40,7 @@ public class SpawnCar : MonoBehaviour
     {
         canCarspawn = false;
      
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(timeSpawnInterval);
         GameObject car;
         GameObject entre = scriptCreation.allEntre[Random.Range(0, scriptCreation.allEntre.Count)];
         nbCar++;

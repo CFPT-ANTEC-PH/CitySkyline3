@@ -178,8 +178,8 @@ MonoBehaviour:
   - {fileID: 9152714342778907783, guid: 85f8a3edaabf98e46997ba131f75f979, type: 3}
   terrainSize: {x: 100, y: 100}
   blockSize: {x: 10, y: 10}
-  rows: 10
-  columns: 10
+  rows: 3
+  columns: 3
   roadBlockRotation:
   - 0
   - 90
@@ -206,8 +206,9 @@ MonoBehaviour:
   scriptCreation: {fileID: 2291623}
   entranceCar: []
   carPrefab:
-  - {fileID: 8002033031059434983, guid: 65ad74f4a1ea1d94ba479b15b19549ea, type: 3}
+  - {fileID: 1248598967819147742, guid: 7afc53945231e974ba10bc479f8fec45, type: 3}
   DossierParentCar: {fileID: 986019517}
+  timeSpawnInterval: 0.7
 --- !u!1 &237677633
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,7 +376,6 @@ GameObject:
   - component: {fileID: 1838733619}
   - component: {fileID: 1838733618}
   - component: {fileID: 1838733617}
-  - component: {fileID: 1838733620}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -457,22 +457,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 56.408, y: 1, z: 1}
---- !u!114 &1838733620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838733616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe613eda53b87d240b7d7cc9df02b030, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  zoomSpeed: 5
-  minZoomDistance: 2
-  maxZoomDistance: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
