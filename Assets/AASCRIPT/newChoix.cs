@@ -41,9 +41,9 @@ public class newChoix : MonoBehaviour
             if (other.gameObject.GetComponent<car>().aUneSortie == false)
             {
 
-
                 other.gameObject.GetComponent<car>().aUneSortie = true;
-               
+                
+                other.gameObject.GetComponent<car>().peuxEtreDestroy = true;
 
                 random = UnityEngine.Random.Range(0, choix.Count);
 
@@ -57,15 +57,16 @@ public class newChoix : MonoBehaviour
 
                 if (produitScalaire > 0.1f)
                 {
-                    other.gameObject.GetComponent<car>().AngleRotaVit = 100;
+                    other.gameObject.GetComponent<car>().AngleRotaVit = 45;
                     other.gameObject.GetComponent<car>().direction = "droite";
+
 
                     Debug.Log("On tourne a droite");
                    
                 }
                 else if (produitScalaire < -0.1f)
                 {
-                    other.gameObject.GetComponent<car>().AngleRotaVit = -100;
+                    other.gameObject.GetComponent<car>().AngleRotaVit = -30;
                     other.gameObject.GetComponent<car>().direction = "gauche";
 
                     Debug.Log("On tourne à gauche");

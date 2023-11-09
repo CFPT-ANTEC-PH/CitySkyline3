@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 957223425643008809}
   - component: {fileID: 6978514912695924878}
   - component: {fileID: 5230867291590982112}
+  - component: {fileID: 7155920613834130635}
   m_Layer: 0
   m_Name: entre1
   m_TagString: entre
@@ -141,12 +142,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642541778234573004}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a47cfbb3df42074f83b8cd0c19df5c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 8976694797572954925}
+  waypoint:
+  - {fileID: 2582163262953153723}
+--- !u!114 &7155920613834130635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642541778234573004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00213f6ccfb2d534096a03542a93aa71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   waypoint:
   - {fileID: 2582163262953153723}
 --- !u!1 &2308954159972323117
@@ -1046,6 +1061,7 @@ GameObject:
   - component: {fileID: 1721985904785759922}
   - component: {fileID: 6293508864451991359}
   - component: {fileID: 7780349264533604136}
+  - component: {fileID: 4873820825014149656}
   m_Layer: 0
   m_Name: entre2
   m_TagString: entre
@@ -1173,12 +1189,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8338036386681045166}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a47cfbb3df42074f83b8cd0c19df5c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 3275073269279421787}
+  waypoint:
+  - {fileID: 5908973149149598416}
+--- !u!114 &4873820825014149656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338036386681045166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00213f6ccfb2d534096a03542a93aa71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   waypoint:
   - {fileID: 5908973149149598416}
 --- !u!1 &8676880838085842035

@@ -43,6 +43,7 @@ public class direction : MonoBehaviour
             
             other.gameObject.GetComponent<carMover>().currentWaypointIndex = 0;
             other.gameObject.GetComponent<carMover>().aUneSortie = false;
+            other.gameObject.GetComponent<car>().peuxEtreDestroy = false;
             other.gameObject.GetComponent<carMover>().waypoints.Clear();
          
             other.gameObject.GetComponent<carMover>().waypoints.Add(gameObject.transform);

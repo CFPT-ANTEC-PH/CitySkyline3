@@ -28,6 +28,7 @@ public class choixSortie : MonoBehaviour
     {
         if (other.gameObject.CompareTag("car"))
         {
+            /*
             if (other.gameObject.GetComponent<carMover>().aUneSortie == false)
             {
 
@@ -40,7 +41,7 @@ public class choixSortie : MonoBehaviour
 
                 string nameSortie = choix[random].name;
 
-                /*
+                
                 if (nameSortie == "sortie2")
                 {
                     if (this.name == "waypont1")
@@ -51,10 +52,11 @@ public class choixSortie : MonoBehaviour
                         }
                     }
                 }
-                */
+                
                 other.gameObject.GetComponent<carMover>().waypoints.Add(choix[random]);
 
             }
+            */
 
         }
     }

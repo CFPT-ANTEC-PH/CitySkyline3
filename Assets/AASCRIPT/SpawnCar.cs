@@ -47,7 +47,19 @@ public class SpawnCar : MonoBehaviour
         Vector3 position = entre.transform.position;
         car = Instantiate(carPrefab[0], position, Quaternion.identity);
         car.transform.parent = DossierParentCar;
-        car.transform.position += new Vector3(0f,0.6f,0f);
+
+        if(car.transform.position.y > -26 && car.transform.position.y < 0) 
+        {
+
+            // Spawn en bas 
+            car.transform.position += new Vector3(0.35f, 0.6f, 0f);
+        }else if (car.transform.position.y > 1)
+        {
+            car.transform.position += new Vector3(-1f, 0.6f, 0f);
+        }
+       
+
+
 
         car.name = car.name + "_" + nbCar;
         canCarspawn = true;
