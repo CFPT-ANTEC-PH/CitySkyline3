@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -76,12 +77,13 @@ public class carMover : MonoBehaviour
             if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.1f)
             {
                 currentWaypointIndex++;
-                currentSpeed = currentSpeed; // Réinitialisez la vitesse à zéro lorsque vous atteignez un nouveau waypoint
+               
             }
         }
         else
         {
             currentWaypointIndex = 0;
+            
         }
     }
 

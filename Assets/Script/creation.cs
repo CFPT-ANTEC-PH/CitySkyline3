@@ -21,12 +21,13 @@ public class creation : MonoBehaviour
     public int columns = 10;
     public List<float> roadBlockRotation;
     public bool pause;
-     private bool start = false;
+    // private bool start = false;
     public bool AllCollisionDetected = false;
     public Transform dossierBlocParent;
     public List<GameObject> allBlock = new List<GameObject>();
     public List<GameObject> allCubeCollision;
     public List<GameObject> allEntre;
+
 
 
 
@@ -79,7 +80,7 @@ public class creation : MonoBehaviour
     IEnumerator PlaceRoadBlocksInGrid()
     {
 
-        start = false;
+       // start = false;
         float startX = -(terrainSize.x / 2) + (blockSize.x / 2);
         float startZ = -(terrainSize.y / 2) + (blockSize.y / 2);
 

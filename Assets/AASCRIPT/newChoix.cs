@@ -1,6 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Net.Sockets;
+using Microsoft.Unity.VisualStudio.Editor.Messaging;
+using Microsoft.Unity.VisualStudio.Editor.Testing;
+
+
 
 public class newChoix : MonoBehaviour
 {
@@ -35,11 +45,11 @@ public class newChoix : MonoBehaviour
                 other.gameObject.GetComponent<car>().aUneSortie = true;
                
 
-                random = Random.Range(0, choix.Count);
+                random = UnityEngine.Random.Range(0, choix.Count);
 
                 Transform sortie = choix[random];
 
-            
+           
                 Vector3 direction = sortie.position - other.transform.position; // Vecteur de direction entre les deux GameObjects
                 Vector3 droite = other.transform.right; // Vecteur "droite" par rapport à l'orientation de votre GameObject
 
@@ -48,15 +58,26 @@ public class newChoix : MonoBehaviour
                 if (produitScalaire > 0.1f)
                 {
                     other.gameObject.GetComponent<car>().AngleRotaVit = 100;
+                    other.gameObject.GetComponent<car>().direction = "droite";
+
+                    Debug.Log("On tourne a droite");
+                   
                 }
                 else if (produitScalaire < -0.1f)
                 {
                     other.gameObject.GetComponent<car>().AngleRotaVit = -100;
+                    other.gameObject.GetComponent<car>().direction = "gauche";
+
+                    Debug.Log("On tourne à gauche");
 
                 }
                 else
                 {
                     other.gameObject.GetComponent<car>().AngleRotaVit = 0;
+                    other.gameObject.GetComponent<car>().direction = "devant";
+
+                    Debug.Log("On va tout droit");
+
 
                 }
 

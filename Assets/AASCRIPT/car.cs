@@ -18,35 +18,39 @@ public class car : MonoBehaviour
 
     public int AngleRotaVit = 0;
 
+    public string direction;
+    
+    
+    
     public float rota = 0;
     public float rotaDeBase;
+
+
+    public float valeurPlus90 = 90;
+    public float valeurMoin90 = -90;
+
 
     private void Update()
     {
 
        // Calculer 
 
-        if(AngleRotaVit > 0)
+        if(AngleRotaVit  == 0)
         {
-            if(rotaDeBase > transform.rotation.y)
-            {
-                rota =  rotaDeBase - transform.rotation.y;
-            }
-            else
-            {
-                rota = transform.rotation.y - rotaDeBase;
-            }
+            // On avance tout droit
            
+           
+        }
+        else if(AngleRotaVit > 5)
+        {
+            // on va a droite 
         }
         else
         {
-            rotaDeBase = transform.rotation.y;
+            // on va a gauche
         }
 
-        if(rota > 0.9)
-        {
-            AngleRotaVit = 0;
-        }
+
 
         gameObject.GetComponent<tourner>().vitesseRotation = AngleRotaVit;
 
