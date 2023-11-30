@@ -39,7 +39,7 @@ public class carVirage : MonoBehaviour
 
                 if (produitScalaire > 0.1f)
                 {
-                    other.gameObject.GetComponent<car>().AngleRotaVit = 35;
+                    other.gameObject.GetComponent<car>().AngleRotaVit = 40;
                     other.gameObject.GetComponent<car>().direction = "droite";
 
 
@@ -48,7 +48,7 @@ public class carVirage : MonoBehaviour
                 }
                 else if (produitScalaire < -0.1f)
                 {
-                    other.gameObject.GetComponent<car>().AngleRotaVit = -20;
+                    other.gameObject.GetComponent<car>().AngleRotaVit = -30;
                     other.gameObject.GetComponent<car>().direction = "gauche";
 
                     Debug.Log("On tourne à gauche");
