@@ -15,7 +15,7 @@ public class carMover : MonoBehaviour
     public float currentSpeed = 1.0f; // Vitesse actuelle du véhicule
     private float deceleration = 1.5f; // Taux de décélération
     public float minSpeed = 5.0f;
-
+    public string emplacementDepart;
 
     public List<Transform> waypoints;
     public int currentWaypointIndex = 0;

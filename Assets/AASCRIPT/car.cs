@@ -32,6 +32,9 @@ public class car : MonoBehaviour
     public float valeurPlus90 = 90;
     public float valeurMoin90 = -90;
 
+    public string emplacementDepart;
+
+
 
     void Update()
     {
@@ -43,7 +46,7 @@ public class car : MonoBehaviour
             {
                 Debug.Log(" A DROIITTTEEE");
 
-                Debug.Log(" Y " + transform.rotation.y * 100 + " ---- rota de base : " + rotaDeBase);
+               // Debug.Log(" Y " + transform.rotation.y * 100 + " ---- rota de base : " + rotaDeBase);
 
 
                 if (transform.rotation.y * 100 >= rotaDeBase + 69 && transform.rotation.y * 100 <= rotaDeBase + 72)
@@ -66,7 +69,7 @@ public class car : MonoBehaviour
                 Debug.Log(" A GAUCHHEEEE");
                 if (transform.rotation.y * 100 <= rotaDeBase - 69 && transform.rotation.y * 100 >= rotaDeBase - 72)
                 {
-                    Debug.Log(" STOP");
+                  //  Debug.Log(" STOP");
 
                     Quaternion rotation = transform.rotation;
 
@@ -86,7 +89,7 @@ public class car : MonoBehaviour
         else
         {
 
-            Debug.Log(" Y " + transform.rotation.y * 100 + " ---- rota de base : " + rotaDeBase);
+           // Debug.Log(" Y " + transform.rotation.y * 100 + " ---- rota de base : " + rotaDeBase);
 
             rotaDeBase = transform.rotation.y * 100;
         }

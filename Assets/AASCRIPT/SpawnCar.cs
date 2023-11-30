@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Random = UnityEngine.Random;
 
 public class SpawnCar : MonoBehaviour
 {
@@ -48,20 +50,57 @@ public class SpawnCar : MonoBehaviour
         car = Instantiate(carPrefab[0], position, Quaternion.identity);
         car.transform.parent = DossierParentCar;
 
-        if(car.transform.position.y > -26 && car.transform.position.y < 0) 
-        {
+        Vector3 newPosition = car.transform.position;
+        Quaternion newRotation = car.transform.rotation;
 
-            // Spawn en bas 
-            car.transform.position += new Vector3(0.35f, 0.6f, 0f);
-        }else if (car.transform.position.y > 1)
+        car.name = "Voiture" + "_" + nbCar;
+
+        Debug.Log(car.name + " : " + car.transform.position + " --- " + car.transform.localPosition);
+
+      
+        // VALEUR A MODIFIER SI LA MAP CHANGE DE TAILLE
+
+        if (car.transform.localPosition.z < -26)
         {
-            car.transform.position += new Vector3(-1f, 0.6f, 0f);
+            // Spawn en bas
+            newPosition += new Vector3(0.35f, 0.5f, 0f);
+            car.GetComponent<car>().emplacementDepart = "En bas";
         }
-       
+        else if (car.transform.localPosition.z > 1)
+        {
+            // Spawn en haut
+            newPosition += new Vector3(-0.35f, 0.5f, 0f);
+            newRotation = Quaternion.Euler(0f, 180f, 0f);
+
+            car.GetComponent<car>().emplacementDepart = "En haut";
+        }
+        else
+        {
+            // Spawn à gauche ou à droite
+            if (car.transform.localPosition.x < -10)
+            {
+                // Spawn à gauche
+                newPosition += new Vector3(0f, 0.5f, -0.40f);
+                newRotation = Quaternion.Euler(0f, 90, 0f);
+
+                car.GetComponent<car>().emplacementDepart = "À gauche";
+            }
+            else
+            {
+                // Spawn à droite
+                newPosition += new Vector3(0f, 0.5f, 0.40f);
+                newRotation = Quaternion.Euler(0f, -90, 0f);
+
+                car.GetComponent<car>().emplacementDepart = "À droite";
+            }
+        }
+
+        car.transform.position = newPosition;
+        car.transform.rotation = newRotation;
 
 
 
-        car.name = car.name + "_" + nbCar;
+
         canCarspawn = true;
 
     }

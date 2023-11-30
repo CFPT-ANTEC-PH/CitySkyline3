@@ -41,7 +41,7 @@ public class direction : MonoBehaviour
         if (other.gameObject.CompareTag("car"))
         {
             
-            other.gameObject.GetComponent<carMover>().currentWaypointIndex = 0;
+            // other.gameObject.GetComponent<carMover>().currentWaypointIndex = 0; 
             other.gameObject.GetComponent<carMover>().aUneSortie = false;
             other.gameObject.GetComponent<car>().peuxEtreDestroy = false;
             other.gameObject.GetComponent<carMover>().waypoints.Clear();

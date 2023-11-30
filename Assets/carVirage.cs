@@ -2,36 +2,21 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Sockets;
-using Microsoft.Unity.VisualStudio.Editor.Messaging;
-using Microsoft.Unity.VisualStudio.Editor.Testing;
 
-
-
-public class newChoix : MonoBehaviour
+public class carVirage : MonoBehaviour
 {
     // Start is called before the first frame update
-    public List<Transform> choix;
-
-
-
-
-    private int random;
+    public Transform sortie;
 
     void Start()
     {
-
+        
     }
-
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -42,14 +27,11 @@ public class newChoix : MonoBehaviour
             {
 
                 other.gameObject.GetComponent<car>().aUneSortie = true;
-                
+
                 other.gameObject.GetComponent<car>().peuxEtreDestroy = true;
 
-                random = UnityEngine.Random.Range(0, choix.Count);
+  
 
-                Transform sortie = choix[random];
-
-           
                 Vector3 direction = sortie.position - other.transform.position; // Vecteur de direction entre les deux GameObjects
                 Vector3 droite = other.transform.right; // Vecteur "droite" par rapport à l'orientation de votre GameObject
 
@@ -62,7 +44,7 @@ public class newChoix : MonoBehaviour
 
 
                     Debug.Log("On tourne a droite");
-                   
+
                 }
                 else if (produitScalaire < -0.1f)
                 {
@@ -88,4 +70,5 @@ public class newChoix : MonoBehaviour
 
         }
     }
+
 }
