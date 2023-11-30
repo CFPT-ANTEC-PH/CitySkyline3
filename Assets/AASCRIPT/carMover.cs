@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,13 @@ public class carMover : MonoBehaviour
 
     public bool start = false;
 
-    public float speed = 1.0f;
+    public float maxSpeed = 5.0f; // Vitesse maximale que le véhicule peut atteindre
+    public float acceleration = 1.0f; // Taux d'accélération
+    public float currentSpeed = 1.0f; // Vitesse actuelle du véhicule
+    private float deceleration = 1.5f; // Taux de décélération
+    public float minSpeed = 5.0f;
+    public string emplacementDepart;
+
     public List<Transform> waypoints;
     public int currentWaypointIndex = 0;
     public bool startMovement = false;
@@ -25,8 +32,6 @@ public class carMover : MonoBehaviour
         if (start)
         {
             start = false;
-
-
             startMovement = true;
         }
 
@@ -42,22 +47,43 @@ public class carMover : MonoBehaviour
     {
         if (currentWaypointIndex < waypoints.Count)
         {
-            // Obtenez la direction du waypoint actuel
             Vector3 direction = (waypoints[currentWaypointIndex].position - transform.position).normalized;
             Quaternion rotation = Quaternion.LookRotation(direction);
             transform.rotation = rotation;
-            // Déplacez le véhicule vers le waypoint
-            transform.Translate(direction * speed * Time.deltaTime, Space.World);
 
-            // Si le véhicule est proche du waypoint, passez au suivant
+            // Si la distance au waypoint est supérieure à la distance de décélération, accélérer
+            if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) > deceleration)
+            {
+                if (currentSpeed < maxSpeed)
+                {
+                    currentSpeed += acceleration * Time.deltaTime;
+                }
+            }
+            else // Sinon, décélérer
+            {
+                if (currentSpeed > 0.2f)
+                {
+                    currentSpeed -= deceleration * Time.deltaTime;
+                }
+                else
+                {
+                    currentSpeed = 0.2f;
+                }
+            }
+
+            // Déplacez le véhicule avec la vitesse actuelle
+            transform.Translate(direction * currentSpeed * Time.deltaTime, Space.World);
+
             if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.1f)
             {
                 currentWaypointIndex++;
+               
             }
         }
         else
         {
             currentWaypointIndex = 0;
+            
         }
     }
 
@@ -65,8 +91,6 @@ public class carMover : MonoBehaviour
     {
         if (currentWaypointIndex > 1)
         {
-
-
             if (other.gameObject.CompareTag("sortie"))
             {
                 Destroy(gameObject);

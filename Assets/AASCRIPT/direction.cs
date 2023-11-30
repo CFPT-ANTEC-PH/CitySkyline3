@@ -7,7 +7,7 @@ public class direction : MonoBehaviour
 {
     // Start is called before the first frame update
     public Transform next;
-    public Transform waypoint;
+    public Transform[] waypoint;
     void Start()
     {
         
@@ -41,16 +41,22 @@ public class direction : MonoBehaviour
         if (other.gameObject.CompareTag("car"))
         {
             
-            other.gameObject.GetComponent<carMover>().currentWaypointIndex = 0;
+            // other.gameObject.GetComponent<carMover>().currentWaypointIndex = 0; 
             other.gameObject.GetComponent<carMover>().aUneSortie = false;
+            other.gameObject.GetComponent<car>().peuxEtreDestroy = false;
             other.gameObject.GetComponent<carMover>().waypoints.Clear();
          
             other.gameObject.GetComponent<carMover>().waypoints.Add(gameObject.transform);
-            if (waypoint)
-            {
-                other.gameObject.GetComponent<carMover>().waypoints.Add(waypoint);
 
+            for (int i = 0; i < waypoint.Length; i++)
+            {
+                if (waypoint[i])
+                {
+                    other.gameObject.GetComponent<carMover>().waypoints.Add(waypoint[i]);
+
+                }
             }
+           
             other.gameObject.GetComponent<carMover>().waypoints.Add(next);
 
             other.gameObject.GetComponent<carMover>().start = true;

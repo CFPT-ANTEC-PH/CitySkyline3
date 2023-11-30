@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4322772507134613142}
   - component: {fileID: 2355554732347234363}
   - component: {fileID: 3004856709304592135}
+  - component: {fileID: 2255885051412230330}
   m_Layer: 0
   m_Name: waypont1
   m_TagString: entre
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 197350311997127271}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.046, y: -1.4210148, z: 3.564}
+  m_LocalPosition: {x: 0.1, y: -1.4210148, z: 2.21}
   m_LocalScale: {x: 0.27121854, y: 0.27539, z: 0.16498427}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -133,6 +134,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &2255885051412230330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197350311997127271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfaa16cd747465429038647a5eb01ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &600708540194060384
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +159,7 @@ GameObject:
   - component: {fileID: 9195787463215206208}
   - component: {fileID: 8303554458793862828}
   - component: {fileID: 5870085126551173875}
-  - component: {fileID: 4898390790607059757}
+  - component: {fileID: 4124443543381416082}
   m_Layer: 0
   m_Name: entre1
   m_TagString: entre
@@ -163,8 +176,8 @@ Transform:
   m_GameObject: {fileID: 600708540194060384}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.10356331, y: -1.4210148, z: -1.6630325}
-  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.58078134}
+  m_LocalPosition: {x: 0.10356331, y: -1.4210148, z: -1.8824}
+  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.14211719}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2291707318404388436}
@@ -267,7 +280,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &4898390790607059757
+--- !u!114 &4124443543381416082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -276,11 +289,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 600708540194060384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a47cfbb3df42074f83b8cd0c19df5c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 00213f6ccfb2d534096a03542a93aa71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  next: {fileID: 2178925493841301953}
-  waypoint: {fileID: 4524882430179693676}
+  waypoint:
+  - {fileID: 4524882430179693676}
 --- !u!1 &953490933128625000
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +589,7 @@ GameObject:
   - component: {fileID: 1639558442143908466}
   - component: {fileID: 7848579285140718671}
   - component: {fileID: 3103481420027607146}
+  - component: {fileID: 2867682232178447496}
   m_Layer: 0
   m_Name: waypont2
   m_TagString: entre
@@ -592,7 +606,7 @@ Transform:
   m_GameObject: {fileID: 3739695548993132130}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.444, y: -1.4210148, z: 2.6769}
+  m_LocalPosition: {x: -1.39, y: -1.4210148, z: 2.6769}
   m_LocalScale: {x: 0.27121854, y: 0.27539, z: 0.16498427}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -696,6 +710,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &2867682232178447496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739695548993132130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfaa16cd747465429038647a5eb01ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4659606829150271334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,7 +1166,7 @@ GameObject:
   - component: {fileID: 8138244208089539047}
   - component: {fileID: 3936236312298253427}
   - component: {fileID: 6651508715630683160}
-  - component: {fileID: 3679447742391881823}
+  - component: {fileID: 7295756132521188988}
   m_Layer: 0
   m_Name: entre2
   m_TagString: entre
@@ -1157,8 +1183,8 @@ Transform:
   m_GameObject: {fileID: 7602740103954180220}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -4.94, y: -1.4210148, z: 2.67}
-  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.58078134}
+  m_LocalPosition: {x: -5.1484, y: -1.4210148, z: 2.67}
+  m_LocalScale: {x: 0.4375, y: 0.27539, z: 0.16395457}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2291707318404388436}
@@ -1261,7 +1287,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &3679447742391881823
+--- !u!114 &7295756132521188988
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1270,11 +1296,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7602740103954180220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a47cfbb3df42074f83b8cd0c19df5c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 00213f6ccfb2d534096a03542a93aa71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  next: {fileID: 1177966809012555623}
-  waypoint: {fileID: 9182962109435908261}
+  waypoint:
+  - {fileID: 9182962109435908261}
 --- !u!1 &8561227970999382532
 GameObject:
   m_ObjectHideFlags: 0
